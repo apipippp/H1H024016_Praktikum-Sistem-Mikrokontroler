@@ -2,20 +2,20 @@
 
 **Nama:** Afif Nur Rahman  
 **NIM:** H1H024016  
-[cite_start]**Mata Kuliah:** TK244005-Praktikum Sistem Mikrokontroller [cite: 5]
+**Mata Kuliah:** TK244005-Praktikum Sistem Mikrokontroller
 
 ---
 
 ## 1.5.4 Pertanyaan Praktikum (Percabangan)
 
 **1. Pada kondisi apa program masuk ke blok if?**
-[cite_start]Program akan masuk ke blok `if` ketika variabel `timeDelay` memiliki nilai kurang dari atau sama dengan 100 (`timeDelay <= 100`)[cite: 136].
+Program akan masuk ke blok `if` ketika variabel `timeDelay` memiliki nilai kurang dari atau sama dengan 100 (`timeDelay <= 100`).
 
 **2. Pada kondisi apa program masuk ke blok else?**
-[cite_start]Program akan masuk ke blok `else` ketika kondisi pada `if` tidak terpenuhi, yaitu ketika nilai `timeDelay` masih lebih besar dari 100[cite: 136, 139].
+Program akan masuk ke blok `else` ketika kondisi pada `if` tidak terpenuhi, yaitu ketika nilai `timeDelay` masih lebih besar dari 100.
 
 **3. Apa fungsi dari perintah `delay(timeDelay)`?**
-[cite_start]Fungsi dari perintah `delay(timeDelay)` adalah untuk memberikan jeda waktu (dalam satuan milidetik) saat menyalakan dan mematikan LED[cite: 131, 134]. [cite_start]Karena nilai `timeDelay` dikurangi secara bertahap dalam perulangan program, instruksi ini menciptakan efek nyala kedip LED yang semakin cepat[cite: 131, 134, 140].
+Fungsi dari perintah `delay(timeDelay)` adalah untuk memberikan jeda waktu (dalam satuan milidetik) saat menyalakan dan mematikan LED. Karena nilai `timeDelay` dikurangi secara bertahap dalam perulangan program, instruksi ini menciptakan efek nyala kedip LED yang semakin cepat.
 
 **4. Jika program yang dibuat memiliki alur mati → lambat → cepat reset (mati), ubah menjadi LED tidak langsung reset → tetapi berubah dari cepat → sedang → mati dan berikan penjelasan disetiap baris kode nya!**
 

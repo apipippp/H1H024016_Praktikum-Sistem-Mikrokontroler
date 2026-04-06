@@ -2,20 +2,20 @@
 
 **Nama:** Afif Nur Rahman  
 **NIM:** H1H024016  
-[cite_start]**Mata Kuliah:** TK244005-Praktikum Sistem Mikrokontroller [cite: 5]
+**Mata Kuliah:** TK244005-Praktikum Sistem Mikrokontroller
 
 ---
 
 ## 1.6.4 Pertanyaan Praktikum (Perulangan)
 
 ### 1. Rangkaian Schematic 5 LED Running
-[cite_start]*(Mengacu pada Tabel 1.1 di modul, rangkaian dikonfigurasikan menggunakan 6 LED pada pin 2 hingga 7)*[cite: 205, 207]. 
+*(Mengacu pada Tabel 1.1 di modul, rangkaian dikonfigurasikan menggunakan 6 LED pada pin 2 hingga 7)*. 
 
 ### 2. Bagaimana program membuat efek LED berjalan dari kiri ke kanan?
-Program menciptakan efek berjalan dari kiri ke kanan dengan memanfaatkan struktur perulangan naik (increment). [cite_start]Kode `for (int pinLed = 2; pinLed < 8; pinLed++)` akan mengakses pin Arduino secara berurutan dimulai dari nilai pin terendah (pin 2) ke pin yang lebih tinggi (hingga pin 7)[cite: 183, 188]. [cite_start]Di dalam perulangan tersebut, setiap LED dihidupkan dengan logika `HIGH`, diberikan jeda waktu dengan `delay()`, lalu dimatikan dengan logika `LOW` [cite: 190-193]. Karena proses ini dieksekusi pin demi pin secara berurutan ke atas, terciptalah efek visual lampu berjalan ke arah kanan.
+Program menciptakan efek berjalan dari kiri ke kanan dengan memanfaatkan struktur perulangan naik (increment). Kode `for (int pinLed = 2; pinLed < 8; pinLed++)` akan mengakses pin Arduino secara berurutan dimulai dari nilai pin terendah (pin 2) ke pin yang lebih tinggi (hingga pin 7)[cite: 183, 188]. Di dalam perulangan tersebut, setiap LED dihidupkan dengan logika `HIGH`, diberikan jeda waktu dengan `delay()`, lalu dimatikan dengan logika `LOW`. Karena proses ini dieksekusi pin demi pin secara berurutan ke atas, terciptalah efek visual lampu berjalan ke arah kanan.
 
 ### 3. Bagaimana program membuat LED kembali dari kanan ke kiri?
-Untuk membalikkan arah pergerakan, program menggunakan perulangan turun (decrement). [cite_start]Kode `for (int pinLed = 7; pinLed >= 2; pinLed--)` mengeksekusi instruksi dari nilai pin tertinggi (pin 7) dan menghitung mundur hingga pin terendah (pin 2)[cite: 195]. [cite_start]Proses yang terjadi di dalamnya sama persis (menyalakan, menahan, lalu mematikan LED) [cite: 196-200], namun karena urutan pinnya dibaca secara terbalik (dari kanan ke kiri secara fisik), maka nyala LED pun terlihat bergerak kembali dari arah kanan ke kiri.
+Untuk membalikkan arah pergerakan, program menggunakan perulangan turun (decrement). Kode `for (int pinLed = 7; pinLed >= 2; pinLed--)` mengeksekusi instruksi dari nilai pin tertinggi (pin 7) dan menghitung mundur hingga pin terendah (pin 2). Proses yang terjadi di dalamnya sama persis (menyalakan, menahan, lalu mematikan LED), namun karena urutan pinnya dibaca secara terbalik (dari kanan ke kiri secara fisik), maka nyala LED pun terlihat bergerak kembali dari arah kanan ke kiri.
 
 ### 4. Program LED Menyala Tiga Kiri dan Tiga Kanan Bergantian
 Berikut adalah kode program untuk menyalakan 3 LED kiri (Pin 2, 3, 4) dan 3 LED kanan (Pin 5, 6, 7) secara bergantian, beserta penjelasan di setiap baris kodenya.
