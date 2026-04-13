@@ -10,9 +10,9 @@
 
 ### 1. Rangkaian Schematic yang Digunakan
 
-![Skema Rangkaian](dokumentasi/skema2A.png)
+![Skema Rangkaian](../dokumentasi/skema2A.png)
 
-![Skemaa Rangkaian](dokumentasi/skemaa2A.png)
+![Skemaa Rangkaian](../dokumentasi/skemaa2A.png)
 
 
 ### 2. Apa yang terjadi jika nilai `num` lebih dari 15?
