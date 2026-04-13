@@ -10,9 +10,9 @@
 
 ### 1. Rangkaian Schematic yang Digunakan
 
-![Skema Rangkaian](dokumentasi/skema2B.png)
+![Skema Rangkaian](../dokumentasi/skema2B.png)
 
-![Skemaa Rangkaian](dokumentasi/skemaa2B.png)
+![Skemaa Rangkaian](../dokumentasi/skemaa2B.png)
 
 
 ### 2. Mengapa push button menggunakan mode `INPUT_PULLUP` pada Arduino Uno? Apa keuntungannya dibandingkan rangkaian biasa?
