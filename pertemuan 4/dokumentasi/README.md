@@ -1,4 +1,7 @@
-https://github.com/user-attachments/assets/d29bfe18-7334-42bb-88cd-762bed8c5d84
+
+
+https://github.com/user-attachments/assets/e200b322-7890-423b-91a3-e83756ec830f
+
 
 ---
 ![Rangkaian](../dokumentasi/rangkaian.png)
